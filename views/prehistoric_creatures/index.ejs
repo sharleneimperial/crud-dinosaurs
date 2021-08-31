@@ -1,0 +1,22 @@
+<ul>
+    <% myCreatures.forEach(function(creature) { %>
+    <li><img src='<%= creature.img_url %>' width='120'> is a <%= creature.type %></li>
+    <% }); %>
+  </ul>
+  <form method="GET" action="/prehistoric_creatures">
+    <label for="nameFilter">Filter by Name</label>
+    <input id="nameFilter" type="text" name="nameFilter">
+    <input type="submit">
+  </form>
+  
+  
+  <ul>
+    <% myCreatures.forEach(function(creature, index) { %>
+    <li><img src='<%= creature.img_url %>' width='120'> is a <%= creature.type %>
+        <a href="/prehistoric_creatures/edit/<%= index %>">Edit</a>
+        <form method="POST" action="/prehistoric_creatures/<%= index %>/?_method=DELETE">
+            <input type="submit" value="Delete">
+        </form>
+    </li>
+    <% }); %>
+  </ul>
