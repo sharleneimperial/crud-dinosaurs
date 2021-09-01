@@ -3,8 +3,6 @@ const router = express.Router();
 const fs = require('fs');
 router.use(express.urlencoded({extended: false}));
 
-
-
 router.get('/', function(req, res) {
     let creatures = fs.readFileSync('./prehistoric_creatures.json');
     let creatureData = JSON.parse(creatures);

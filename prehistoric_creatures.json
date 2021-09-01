@@ -1,20 +1,19 @@
 [{"name":"Woolly",
-"type":"mammoth",
-"img_url":"https://i.imgur.com/EjSJrUh.jpg"},
-
-{"name":"Sharky",
-"type":"megalodon", 
-"img_url":"https://i.imgur.com/zpebPx5.jpg"},
-
-{"name":"Scarebird",
-"type":"terrorbird", 
-"img_url":"https://i.imgur.com/hMDo7wJ.png"},
-
-{"name":"Andy",
-"type":"andrewsarchus",
-"img_url":"https://i.imgur.com/TEAjUyQ.jpg"},
-
-{"name":"Tiger",
-"type":"sabretooth", 
-"img_url":"https://i.imgur.com/tgMhHJd.jpg"}]
-
+    "type":"mammoth",
+    "img_url":"https://i.imgur.com/EjSJrUh.jpg"},
+    
+    {"name":"Sharky",
+    "type":"megalodon", 
+    "img_url":"https://i.imgur.com/zpebPx5.jpg"},
+    
+    {"name":"Scarebird",
+    "type":"terrorbird", 
+    "img_url":"https://i.imgur.com/hMDo7wJ.png"},
+    
+    {"name":"Andy",
+    "type":"andrewsarchus",
+    "img_url":"https://i.imgur.com/TEAjUyQ.jpg"},
+    
+    {"name":"Tiger",
+    "type":"sabretooth", 
+    "img_url":"https://i.imgur.com/zpebPx5.jpg"}]

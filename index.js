@@ -8,8 +8,9 @@ const PORT = process.env.PORT || 8000;
 
 app.set('view engine', 'ejs');
 app.use(ejsLayouts);
-app.use(methodOverride('_method'));
+
 app.use(express.urlencoded({extended: false}));
+app.use(methodOverride('_method'));
 
 app.use('/dinosaurs', require('./controllers/dinosaurs'));
 app.use('/prehistoric_creatures', require('./controllers/prehistoric_creatures'));
